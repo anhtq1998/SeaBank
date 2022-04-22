@@ -1,0 +1,59 @@
+[nz-button] {
+  margin-right: 8px;
+  margin-bottom: 12px;
+  background-color: #690000;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  height: 40px;
+  width: 100px;
+}
+.header-component{
+  display: flex;
+  justify-content: space-between;
+}
+.search-component{
+  display: flex;
+}
+.search-component-chilrd{
+  flex: 1;
+  margin-top: 30px;
+  display: flex;
+}
+.form-item-lable{
+  flex: 2;
+  margin-right: 20px;
+  margin-left: 25px;
+}
+.form-item-field{
+  flex: 6;
+  margin-right: 20px;
+  margin-left: 25px;
+}
+select{
+  height: 30px;
+  border-radius: 7px;
+}
+input{
+  height: 30px;
+  border-radius: 7px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.breadcurm{
+  position: fixed;
+  margin-top: -45px;
+}
